@@ -37,7 +37,6 @@ interface Graph { // Graph class ADT
   // Once BFS is completed, the ArrayList is returned.
   ArrayList<Integer> BFS(int v);
 
-
   // Returns true if there is a path between v and w. Otherwise returns false. You may use the BFS method (above) for this method.
   boolean hasPath(int v, int w);
 

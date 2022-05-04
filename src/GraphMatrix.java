@@ -34,7 +34,6 @@ public class GraphMatrix implements Graph{
         this.graph[v][w] = wgt; //Sets the intersect (value of edge) to weight
     }
 
-
     public int getWeight(int v, int w) {
         int weight = 0; //Initializes weight to return
         if(hasEdge(v,w)) { //Checks if there is an edge
